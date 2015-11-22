@@ -1,9 +1,9 @@
-## How to run
+##How to run##
 
 * clone down repo
 * run 'npm install'
 * run 'node main.js'
 
-## How to configure components
+##How to configure components
 
 * Look inside /components/ folder
