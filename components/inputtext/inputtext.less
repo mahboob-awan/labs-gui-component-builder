@@ -1,0 +1,36 @@
+.focused() {
+	border: 1px solid;
+	background: lime;
+}
+
+.inputtext {
+
+	&-input {
+
+		padding: 10px;
+
+		&:focus,
+		&-input {
+			.focused;
+		}
+
+	}
+
+	&-focus {
+
+		.inputtext-input {
+			.focused;
+		}
+
+	}
+
+	&-disabled,
+	&:disabled {
+
+		.inputtext-input {
+			background: silver;
+		}
+
+	}
+
+}

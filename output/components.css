@@ -1,0 +1,71 @@
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.btn-danger {
+  background: red;
+  color: white;
+}
+.btn-danger.btn-disabled,
+.btn-danger:disabled {
+  background: darkred;
+}
+.btn-danger.btn-hover,
+.btn-danger:hover {
+  background: orange;
+}
+.btn-confirm {
+  background: green;
+  color: lime;
+}
+.btn-confirm.btn-disabled,
+.btn-confirm:disabled {
+  background: darkgreen;
+}
+.btn-confirm.btn-hover,
+.btn-confirm:hover {
+  color: blue;
+  background: aqua;
+}
+.btn-disabled,
+.btn:disabled {
+  background: silver;
+  color: black;
+}
+.btn-active,
+.btn:active {
+  color: white;
+  background: blue;
+}
+.btn-hover,
+.btn:hover {
+  border: 2px solid purple;
+}
+.btngrp {
+  border: 1px solid gray;
+  padding: 10px;
+  display: flex;
+}
+.btngrp .btn {
+  flex-grow: 1;
+}
+.btngrp .btn:last-of-type {
+  margin-left: 10px;
+}
+.inputtext-input {
+  padding: 10px;
+}
+.inputtext-input:focus,
+.inputtext-input-input {
+  border: 1px solid;
+  background: lime;
+}
+.inputtext-focus .inputtext-input {
+  border: 1px solid;
+  background: lime;
+}
+.inputtext-disabled .inputtext-input,
+.inputtext:disabled .inputtext-input {
+  background: silver;
+}

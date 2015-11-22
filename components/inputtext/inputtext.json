@@ -1,0 +1,11 @@
+{
+    "label": "Input text",
+    "description": "Standard input text field.",
+    "states": [
+        "focus",
+        "disabled"
+    ],
+    "themes": [
+        "dark"
+    ]
+}

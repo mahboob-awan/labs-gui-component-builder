@@ -1,0 +1,108 @@
+.btn {
+
+	padding: 10px 20px;
+	cursor: pointer;
+	border: 2px solid transparent;
+
+	&-danger {
+
+		background: red;
+		color: white;
+
+		&.btn-disabled,
+		&:disabled {
+			background: darkred;
+		}
+
+		&.btn-hover,
+		&:hover {
+			background: orange;
+		}
+
+	}
+
+	&-confirm {
+		background: green;
+		color: lime;
+
+		&.btn-disabled,
+		&:disabled {
+			background: darkgreen;
+		}
+
+		&.btn-hover,
+		&:hover {
+			color: blue;
+			background: aqua;
+		}
+
+	}
+
+	&-disabled,
+	&:disabled {
+		background: silver;
+		color: black;
+	}
+
+	&-active,
+	&:active {
+		color: white;
+		background: blue;
+	}
+
+	&-hover,
+	&:hover {
+		border: 2px solid purple;
+	}
+
+}
+.btngrp {
+	border: 1px solid gray;
+	padding: 10px;
+	display: flex;
+
+	.btn {
+		flex-grow: 1;
+	}
+
+	.btn:last-of-type {
+		margin-left: 10px;
+	}
+
+}
+.focused() {
+	border: 1px solid;
+	background: lime;
+}
+
+.inputtext {
+
+	&-input {
+
+		padding: 10px;
+
+		&:focus,
+		&-input {
+			.focused;
+		}
+
+	}
+
+	&-focus {
+
+		.inputtext-input {
+			.focused;
+		}
+
+	}
+
+	&-disabled,
+	&:disabled {
+
+		.inputtext-input {
+			background: silver;
+		}
+
+	}
+
+}

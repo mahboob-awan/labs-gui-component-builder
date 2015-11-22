@@ -1,0 +1,14 @@
+{
+    "label": "Button",
+    "description": "This is an ordinary button",
+    "states": [
+        "hover",
+        "active",
+        "focus",
+        "disabled"
+    ],
+    "themes": [
+        "danger",
+        "confirm"
+    ]
+}
